@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Body & Bass Studio",
+    "slug": "body-and-bass-studio",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0B1021"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.pocketstudio.bodyandbass"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0B1021"
+      },
+      "package": "com.pocketstudio.bodyandbass"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "build": {
+        "babel": {
+          "include": ["@ui-kitten/components"]
+        }
+      }
+    },
+    "description": "Privacy-first period tracking with music studio metaphors",
+    "githubUrl": "https://github.com/PocketStudio-Biz/body-and-bass-studio"
+  }
+}
